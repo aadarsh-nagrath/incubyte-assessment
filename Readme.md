@@ -40,3 +40,6 @@ Test -
 It should handle newlines as delimiters
 Code - 
 Added a delimiter based on which the string is split , it has both "," % "\n". Will check for both
+6. 
+Test - 
+Calculator should support custom delimiters
