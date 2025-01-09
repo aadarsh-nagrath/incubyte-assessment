@@ -48,3 +48,5 @@ Added a code checks if the input string numbers starts with // (indicating a cus
 7. 
 Test -
 Throw an exception if negative numbers are passed to calculator.
+Code - 
+Now will split the numbers based on delimiter first and then check if any of the numbers are negative. If yes will throw exception, if not then processed with returning sum.

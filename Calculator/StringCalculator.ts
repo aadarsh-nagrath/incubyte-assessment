@@ -11,6 +11,13 @@ export class StringCalculator {
             numbers = numbers.substring(delimiterEnd + 1);
         }
 
-        return numbers.split(delimiter).map((num)=> parseInt(num, 10)).reduce((a, b) => a + b);
+        const numArray = numbers.split(delimiter).map((num) => parseInt(num, 10));
+
+        const negativeNumbers = numArray.filter((num) => num < 0);
+        if (negativeNumbers.length > 0) {
+            throw new Error(`negative numbers not allowed: ${negativeNumbers.join(', ')}`);
+        }
+    
+        return numArray.reduce((sum, curr) => sum + curr, 0);
     }
 }
