@@ -4,10 +4,8 @@ export class StringCalculator {
             return 0;
         }
 
-        if (!numbers.includes(',')) {
-            return parseInt(numbers, 10);
-        }
+        const delimiter = /,|\n/;
 
-        return numbers.split(',').map((num)=> parseInt(num, 10)).reduce((a, b) => a + b);
+        return numbers.split(delimiter).map((num)=> parseInt(num, 10)).reduce((a, b) => a + b);
     }
 }

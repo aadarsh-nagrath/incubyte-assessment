@@ -25,10 +25,18 @@ Test -
 Its vital for an empty string in the calculator should return 0. 
 Code -
 Adding a simple check if str == '' then to return 0
-3. It should return the number itself for a single number input in the calculator.
+3. 
+Test = 
+It should return the number itself for a single number input in the calculator.
 Code - 
 Added a check to see if string includes a "," or not, if not then it is supposed to be a single number and return the number.
-4. It should return the sum of two numbers in the calculator, that are separated by a comma.
+4. 
+Test - 
+It should return the sum of two numbers in the calculator, that are separated by a comma.
 Code -
 Changeded return statement to first split the string by "," and then pasrse the integers and return the sum.
-5. It should handle newlines as delimiters
+5. 
+Test -
+It should handle newlines as delimiters
+Code - 
+Added a delimiter based on which the string is split , it has both "," % "\n". Will check for both
