@@ -58,3 +58,6 @@ added a filter to check if the number is greater than 1000 and if yes then ignor
 9. 
 Test - 
 Need to handle multiple custom delimiters.
+Code -
+I added an escapeRegex function to safely handle special characters in delimiters and modified the delimiter parsing logic to support multiple custom delimiters by splitting, escaping, and combining them into a single regex pattern.
+Also more tests added to handle different scenarios.

@@ -33,9 +33,12 @@ describe('StringCalculator', () => {
     test('Calculator should ignore numbers greater than 1000', () => {
         expect(calculator.add('2,1001')).toBe(2);
     });
-    
+
     test('should support multiple delimiters', () => {
         expect(calculator.add('//[***]\n1***2***3')).toBe(6);
+        expect(calculator.add('//[;][#]\n1;2#3')).toBe(6);
+        expect(calculator.add('//[delim][abc]\n1delim2abc3')).toBe(6);
+        expect(() => calculator.add('//[]\n1,2,3')).toThrowError('Invalid delimiter');
     });
     
 });
