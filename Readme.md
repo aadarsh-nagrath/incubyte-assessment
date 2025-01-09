@@ -43,3 +43,5 @@ Added a delimiter based on which the string is split , it has both "," % "\n". W
 6. 
 Test - 
 Calculator should support custom delimiters
+Code -
+Added a code checks if the input string numbers starts with // (indicating a custom delimiter), extracts the delimiter, and updates the numbers string by removing the delimiter definition.
