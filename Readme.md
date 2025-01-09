@@ -50,3 +50,6 @@ Test -
 Throw an exception if negative numbers are passed to calculator.
 Code - 
 Now will split the numbers based on delimiter first and then check if any of the numbers are negative. If yes will throw exception, if not then processed with returning sum.
+8.  
+Test -
+Need to handle numbers greater than 1000
