@@ -45,3 +45,6 @@ Test -
 Calculator should support custom delimiters
 Code -
 Added a code checks if the input string numbers starts with // (indicating a custom delimiter), extracts the delimiter, and updates the numbers string by removing the delimiter definition.
+7. 
+Test -
+Throw an exception if negative numbers are passed to calculator.
