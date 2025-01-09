@@ -28,3 +28,4 @@ Adding a simple check if str == '' then to return 0
 3. It should return the number itself for a single number input in the calculator.
 Code - 
 Added a check to see if string includes a "," or not, if not then it is supposed to be a single number and return the number.
+4. It should return the sum of two numbers in the calculator, that are separated by a comma.
