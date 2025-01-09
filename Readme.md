@@ -53,3 +53,5 @@ Now will split the numbers based on delimiter first and then check if any of the
 8.  
 Test -
 Need to handle numbers greater than 1000
+Code - 
+added a filter to check if the number is greater than 1000 and if yes then ignore it.
