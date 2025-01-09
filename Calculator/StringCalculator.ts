@@ -7,7 +7,7 @@ export class StringCalculator {
         if (!numbers.includes(',')) {
             return parseInt(numbers, 10);
         }
-        
-        return 0;
+
+        return numbers.split(',').map((num)=> parseInt(num, 10)).reduce((a, b) => a + b);
     }
 }
