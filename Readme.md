@@ -31,3 +31,4 @@ Added a check to see if string includes a "," or not, if not then it is supposed
 4. It should return the sum of two numbers in the calculator, that are separated by a comma.
 Code -
 Changeded return statement to first split the string by "," and then pasrse the integers and return the sum.
+5. It should handle newlines as delimiters
